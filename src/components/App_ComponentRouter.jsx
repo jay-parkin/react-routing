@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        {/* This is the custom navbar */}
+        {/* This is our custom navbar! */}
         <Navbar />
 
         <Routes>
