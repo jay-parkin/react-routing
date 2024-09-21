@@ -18,8 +18,10 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/contact" element={<ContactPage />} />
+
           <Route path="/projects" element={<ProjectLayout />}>
-            <Route path="pokemon" element={<PokemonProject />} />
+            <Route path="/projects/pokemon" element={<PokemonProject />} />
+            <Route path="pokemon/:pokemonNumber" element={<PokemonProject />} />
           </Route>
         </Routes>
       </BrowserRouter>

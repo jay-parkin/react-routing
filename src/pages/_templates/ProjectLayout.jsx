@@ -1,5 +1,7 @@
 import { Outlet } from "react-router-dom";
 
+
+// This layout will be present on every project
 export default function ProjectLayout(props) {
   return (
     <div>

@@ -33,6 +33,7 @@ export default function Navbar() {
         <h3>Contact</h3>
       </NavLink>
       <NavLink
+        end
         to={"/projects"}
         className={({ isActive }) => {
           return isActive ? "active" : "";
